@@ -1,0 +1,74 @@
+.main {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #ccc;
+}
+
+.box {
+    width: 500px;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 8px #888888
+}
+
+.inputData {
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputField {
+    width: 400px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp-text{
+    font-size: 30px;
+}
+
+.up-down{
+    color: rgb(80, 78, 78);;
+}
+
+.humidity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 78, 78);
+}
+
+.btn {
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 50px;
+    background-color: green;
+    color: white;
+}
+
+.title-app {
+    text-align: center;
+}
